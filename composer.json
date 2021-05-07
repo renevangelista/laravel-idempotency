@@ -1,0 +1,22 @@
+{
+    "name": "revangelista/laravel-idempotency",
+    "description": "Laravel Idempotency Middleware",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Idempotency\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Idempotency\\IdempotencyServiceProvider"
+            ]
+        }
+    }
+}
